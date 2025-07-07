@@ -3,3 +3,58 @@ body {
 }
 
 /* Start coding here */
+
+body {
+  background: #000;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 600px;
+  border: 8px solid white;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.7);
+  overflow: hidden;
+  background: white;
+}
+
+.card-img {
+  width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 6px;
+}
+
+.card-label {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(60,60,60,0.85);
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  z-index: 2;
+}
+
+.card-title {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0,0,0,0.92) 60%, rgba(0,0,0,0.5) 85%, rgba(0,0,0,0.0) 100%);
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 16px 16px 12px 16px;
+  font-family: inherit;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  z-index: 2;
+  text-shadow: 0 2px 8px #000;
+}
